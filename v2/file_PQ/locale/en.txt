@@ -1,5 +1,15 @@
 #: locale=en
 
+## Action
+
+### URL
+LinkBehaviour_44566EA5_5009_062F_4193_7CD8EDB01CEB.source = https://vni.pro.vn/fh/SunGrandCityHillsideResidence?lang=vn
+LinkBehaviour_432341E5_5009_1A2E_41CC_759A76F8EBDC.source = https://vni.pro.vn/fh/SunGrandCityHillsideResidence?lang=vn
+LinkBehaviour_42430B9E_503F_0E18_4198_35FF78AF9EEB.source = https://vni.pro.vn/fh/SunGrandCityHillsideResidence?lang=vn
+LinkBehaviour_7A93A880_6FEF_2AEB_41CB_285372E2FDC1.source = https://vni.pro.vn/fh/SunTropicalVillage?lang=vn
+LinkBehaviour_7A9761D6_6FED_1A14_41CC_8A485C5234CF.source = https://vni.pro.vn/fh/SunTropicalVillage?lang=vn
+LinkBehaviour_7A972579_6FEB_1A1C_41DA_93236DBD44F9.source = https://vni.pro.vn/fh/SunTropicalVillage?lang=vn
+
 ## Media
 
 ### Title
@@ -22,7 +32,7 @@ Image_3EFD4CAA_2264_1608_41B0_75C599CB45FB.url = skin/Image_3EFD4CAA_2264_1608_4
 
 ### Label
 Label_393205BD_2264_1609_41AC_5D621AC2DB55.text = HILLSIDE RESIDENCE
-Label_3EFD0CAB_2264_1609_4174_48657A89F87C.text = HON THAN
+Label_3EFD0CAB_2264_1609_4174_48657A89F87C.text = HÒN THƠM
 Label_39571AD4_225C_720C_41BD_8062ACEB983C.text = JW MARRIOTT
 Label_39E3669D_227C_3208_4190_4EEF48DE65F7.text = MELODIA BOUTIQUE
 Label_3BA41DD3_22A4_163A_41C1_2030B8CB5D74.text = NEW AN THOI
@@ -49,4 +59,4 @@ Label_389F9CE7_22A4_F61A_41A5_599FC7F8E140.text = THE ADEN BAY
 ### Description
 
 ### Title
-tour.name = PQ
+tour.name = PHÚ QUỐC

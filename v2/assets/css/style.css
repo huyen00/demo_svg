@@ -46,10 +46,10 @@ background-color: #020f20*/
 }
 
 .list_element_map {
-    position: absolute;
+    position: fixed;
     bottom: 7%;
     
-    right: 20%;
+    right: 15%;
     
 }
 .list_element_map ul li{
@@ -365,7 +365,9 @@ ul li p {
    
   
 }
-
+.active_sun{
+    background-color: rgb(217, 55, 209) !important;
+}
 .map_mobile img{
     width: 100%;
 }

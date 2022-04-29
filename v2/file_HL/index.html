@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Phú Quốc</title>
+    <title>Hạ Long</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.5"/>
 
@@ -9,25 +9,25 @@
 
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <script src="lib/tdvplayer.js?v=1650021076979"></script>
-    <link rel="preload" href="locale/en.txt?v=1650021076979" as="fetch" crossorigin="anonymous"/>
-	<link rel="preload" href="script.js?v=1650021076979" as="script"/>
-	<link rel="preload" href="media/panorama_2AF150AC_21A4_2E42_41AE_6B1EAA6E5CA3_0/r/3/0_0.jpg?v=1650021076979" as="image"/>
-	<link rel="preload" href="media/panorama_2AF150AC_21A4_2E42_41AE_6B1EAA6E5CA3_0/l/3/0_0.jpg?v=1650021076979" as="image"/>
-	<link rel="preload" href="media/panorama_2AF150AC_21A4_2E42_41AE_6B1EAA6E5CA3_0/u/3/0_0.jpg?v=1650021076979" as="image"/>
-	<link rel="preload" href="media/panorama_2AF150AC_21A4_2E42_41AE_6B1EAA6E5CA3_0/d/3/0_0.jpg?v=1650021076979" as="image"/>
-	<link rel="preload" href="media/panorama_2AF150AC_21A4_2E42_41AE_6B1EAA6E5CA3_0/f/3/0_0.jpg?v=1650021076979" as="image"/>
-	<link rel="preload" href="media/panorama_2AF150AC_21A4_2E42_41AE_6B1EAA6E5CA3_0/b/3/0_0.jpg?v=1650021076979" as="image"/>
+    <script src="lib/tdvplayer.js?v=1650021171320"></script>
+    <link rel="preload" href="locale/en.txt?v=1650021171320" as="fetch" crossorigin="anonymous"/>
+	<link rel="preload" href="script.js?v=1650021171320" as="script"/>
+	<link rel="preload" href="media/panorama_3D9CE6D4_23E4_1205_41C0_B6718D9092EF_0/r/3/0_0.jpg?v=1650021171320" as="image"/>
+	<link rel="preload" href="media/panorama_3D9CE6D4_23E4_1205_41C0_B6718D9092EF_0/l/3/0_0.jpg?v=1650021171320" as="image"/>
+	<link rel="preload" href="media/panorama_3D9CE6D4_23E4_1205_41C0_B6718D9092EF_0/u/3/0_0.jpg?v=1650021171320" as="image"/>
+	<link rel="preload" href="media/panorama_3D9CE6D4_23E4_1205_41C0_B6718D9092EF_0/d/3/0_0.jpg?v=1650021171320" as="image"/>
+	<link rel="preload" href="media/panorama_3D9CE6D4_23E4_1205_41C0_B6718D9092EF_0/f/3/0_0.jpg?v=1650021171320" as="image"/>
+	<link rel="preload" href="media/panorama_3D9CE6D4_23E4_1205_41C0_B6718D9092EF_0/b/3/0_0.jpg?v=1650021171320" as="image"/>
 	<meta name="description" content="Virtual Tour"/>
 	<meta name="theme-color" content="#FFFFFF"/>
-    <script src="script.js?v=1650021076979"></script>
+    <script src="script.js?v=1650021171320"></script>
     <!-- <link rel="stylesheet" href="../assets/css/style.css"> -->
     <link rel="stylesheet" href="../assets/css/animation.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/bootstrap-select.css">
     <script type="text/javascript">
         var tour;
-        var devicesUrl = {"general":"script_general.js?v=1650021076979","mobile":"script_mobile.js?v=1650021076979"};
+        var devicesUrl = {"general":"script_general.js?v=1650021171320","mobile":"script_mobile.js?v=1650021171320"};
 
         (function()
         {
@@ -70,9 +70,9 @@
 
             var settings = new TDV.PlayerSettings();
             settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
-            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1650021076979');
-            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1650021076979');
-            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1650021076979');
+            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1650021171320');
+            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1650021171320');
+            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1650021171320');
 
             tour = new TDV.Tour(settings, devicesUrl);
             tour.bind(TDV.Tour.EVENT_TOUR_INITIALIZED, onVirtualTourInit);
@@ -318,8 +318,8 @@
         #viewer { z-index:1; }
         
     </style>
-    <!-- style -->
-    <style>
+     <!-- style -->
+     <style>
         ul {
            margin: 0px;
        }
@@ -535,128 +535,127 @@
        }
    
    </style>
-    
 </head>
 <body>
     
     <div id="viewer" class="fill-viewport"></div>
 
-        <!-- menu con -->
+    <!-- menu con -->
        
-        <div class="back_menu" style="z-index: 10;">
-            <div class="title_menu">
-                <p class="title_diadiem">Chọn địa điểm</p>
-                <i class="fas fa-caret-up"></i>
-            </div>
-            <div class="icon_location d-flex">
-                <i id ="location" class="fas fa-map-marker-alt "></i>
-                <i id="location_show" class="fas fa-map-marker-alt"></i>
-            </div>
-    
-            <div class="menu">
-                <ul class="list_menu">
-                    <li  class="link_menu link_VN">
-                        <a id="VN"  class="link">Việt Nam</a>
-                        <div class="list_sub sub_VN">
-                            <div class="title_sub">
-                                <a href="../index.html" class="title_sub">Việt Nam</a>
-                            </div>
-                            <div class="sub">
-                                <ul class="sub_menu_VN sub_menu">
-                                    <li class="sub_link">
-                                        <a href="../file_HL/index.html">Hạ Long</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="../file_PQ/index.html">Phú Quốc</a>
-                                    </li>                          
-                                </ul> 
-                            </div>
-                                                     
-                        </div>
-                    </li>
-                    <li  class="link_menu link_HL">
-                        <a id="HL"  class="link">Hạ Long</a>
-                        <div class="list_sub sub_HL">
-                            <div class="title_sub">
-                                <a href="../file_HL/index.html" class="title_sub">Hạ Long</a>
-                            </div>
-                            <div class="sub">
-                                <ul class="sub_menu_HL sub_menu">
-                                    <li class="sub_link">
-                                        <a href="https://vni.pro.vn/fh/SunMarinaTown?lang=vn">Sun Marina Town</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="https://vni.pro.vn/fh/SunMarinaPlaza?lang=vn">Sun Marina Plaza</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="https://vni.pro.vn/fh/SunHarborPlaza?lang=vn">Sun Harbor Plaza</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="">Sun Onsen Village</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="">Sun Grand City Feria</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="">Sun Plaza Grand World</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="">Premier Village Ha Long Bien</a>
-                                    </li>
-                                </ul>    
-                            </div>                                                  
-                        </div>
-                    </li>
-                    <li  class="link_menu link_PQ">
-                        <a  id="PQ"  class="link link_PQ">Phú Quốc</a>
-                        <div class="list_sub sub_PQ">
-                            <div class="title_sub">
-                                <a href="../file_PQ/index.html" class="title_sub">Phú Quốc</a>
-                            </div>
-                            <div class="sub">
-                                <ul class="sub_menu_PQ sub_menu">
-                                    <li class="sub_link">
-                                        <a href="">Sun Grand City</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="">Sun Premier Village</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="">JW Marriott</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="">Premier Residences</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="">New World</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="">Premier Village</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="">Melodia Boutique</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="https://vni.pro.vn/fh/SunTropicalVillage?lang=vn">Sun Tropical Village</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="">Sun Premier Village</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="https://vni.pro.vn/fh/SunGrandCityHillsideResidence?lang=vn">Sun Grand City</a>
-                                    </li>
-                                    <li class="sub_link">
-                                        <a href="">Hòn Thơm</a>
-                                    </li>
-                                </ul>      
-                            </div>
-                                                 
-                        </div>
-                    </li>
-                </ul>
-            </div>
+    <div class="back_menu" style="z-index: 10;">
+        <div class="title_menu">
+            <p class="title_diadiem">Chọn địa điểm</p>
+            <i class="fas fa-caret-up"></i>
         </div>
-   
+        <div class="icon_location d-flex">
+            <i id ="location" class="fas fa-map-marker-alt "></i>
+            <i id="location_show" class="fas fa-map-marker-alt"></i>
+        </div>
+
+        <div class="menu">
+            <ul class="list_menu">
+                <li  class="link_menu link_VN">
+                    <a id="VN"  class="link">Việt Nam</a>
+                    <div class="list_sub sub_VN">
+                        <div class="title_sub">
+                            <a href="../index.html" class="title_sub">Việt Nam</a>
+                        </div>
+                        <div class="sub">
+                            <ul class="sub_menu_VN sub_menu">
+                                <li class="sub_link">
+                                    <a href="../file_HL/index.html">Hạ Long</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="../file_PQ/index.html">Phú Quốc</a>
+                                </li>                          
+                            </ul> 
+                        </div>
+                                                 
+                    </div>
+                </li>
+                <li  class="link_menu link_HL">
+                    <a id="HL"  class="link">Hạ Long</a>
+                    <div class="list_sub sub_HL">
+                        <div class="title_sub">
+                            <a href="../file_HL/index.html" class="title_sub">Hạ Long</a>
+                        </div>
+                        <div class="sub">
+                            <ul class="sub_menu_HL sub_menu">
+                                <li class="sub_link">
+                                    <a href="https://vni.pro.vn/fh/SunMarinaTown?lang=vn">Sun Marina Town</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="https://vni.pro.vn/fh/SunMarinaPlaza?lang=vn">Sun Marina Plaza</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="https://vni.pro.vn/fh/SunHarborPlaza?lang=vn">Sun Harbor Plaza</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="">Sun Onsen Village</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="">Sun Grand City Feria</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="">Sun Plaza Grand World</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="">Premier Village Ha Long Bien</a>
+                                </li>
+                            </ul>    
+                        </div>                                                  
+                    </div>
+                </li>
+                <li  class="link_menu link_PQ">
+                    <a  id="PQ"  class="link link_PQ">Phú Quốc</a>
+                    <div class="list_sub sub_PQ">
+                        <div class="title_sub">
+                            <a href="../file_PQ/index.html" class="title_sub">Phú Quốc</a>
+                        </div>
+                        <div class="sub">
+                            <ul class="sub_menu_PQ sub_menu">
+                                <li class="sub_link">
+                                    <a href="">Sun Grand City</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="">Sun Premier Village</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="">JW Marriott</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="">Premier Residences</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="">New World</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="">Premier Village</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="">Melodia Boutique</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="https://vni.pro.vn/fh/SunTropicalVillage?lang=vn">Sun Tropical Village</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="">Sun Premier Village</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="https://vni.pro.vn/fh/SunGrandCityHillsideResidence?lang=vn">Sun Grand City</a>
+                                </li>
+                                <li class="sub_link">
+                                    <a href="">Hòn Thơm</a>
+                                </li>
+                            </ul>      
+                        </div>
+                                             
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
 </body>
 <script src="../assets/js/jquery.min.js"></script>
 <script src="../assets/js/script.js"></script>
@@ -666,7 +665,9 @@
 <script src="../assets/js/bootstrap-select.js"></script>
 
 <script>
-    $(document).ready(function() {
+ 
+   
+ $(document).ready(function() {
         $('.title_menu').click(function(){
             $('.menu').toggle();
         });
